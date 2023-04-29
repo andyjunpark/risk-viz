@@ -9,17 +9,30 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@types/node": "18.16.2",
-    "@types/react": "18.2.0",
+    "@types/d3": "^7.4.0",
+    "@types/d3-selection": "^3.0.5",
+    "@types/node": "^18.16.2",
+    "@types/react": "^18.2.0",
     "@types/react-dom": "18.2.1",
     "autoprefixer": "10.4.14",
+    "csv-loader": "^3.0.5",
+    "d3": "^7.8.4",
+    "d3-selection": "^3.0.0",
+    "dotenv": "^16.0.3",
     "eslint": "8.39.0",
     "eslint-config-next": "13.3.1",
+    "mapbox-gl": "^2.14.1",
     "next": "13.3.1",
     "postcss": "8.4.23",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-map-gl": "^7.0.23",
+    "react-mapbox-gl": "^5.1.1",
+    "react-tooltip-lite": "^1.12.0",
     "tailwindcss": "3.3.2",
-    "typescript": "5.0.4"
+    "typescript": "^5.0.4"
+  },
+  "devDependencies": {
+    "dotenv-webpack": "^8.0.1"
   }
 }
