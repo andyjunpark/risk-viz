@@ -3,9 +3,6 @@ import { useEffect, useState } from 'react';
 import ReactMapboxGl, { Marker } from 'react-mapbox-gl';
 import Tooltip from 'react-tooltip-lite';
 import * as d3 from 'd3';
-import dotenv from 'dotenv';
-
-dotenv.config();
 
 const accessToken = process.env.MAPBOX_ACCESS_TOKEN;
 
