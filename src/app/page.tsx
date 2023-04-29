@@ -3,14 +3,14 @@ import { useEffect, useState } from 'react';
 import ReactMapboxGl, { Marker } from 'react-mapbox-gl';
 import Tooltip from 'react-tooltip-lite';
 import * as d3 from 'd3';
-// import dotenv from 'dotenv';
+import dotenv from 'dotenv';
 
-// dotenv.config();
+dotenv.config();
 
-// const accessToken = process.env.MAPBOX_ACCESS_TOKEN;
+const accessToken = process.env.MAPBOX_ACCESS_TOKEN;
 
 const Map = ReactMapboxGl({
-  accessToken: '',
+  accessToken: accessToken,
 });
 
 const colorScale = {
